@@ -1,0 +1,96 @@
+{
+  "blockT" : {
+    "year_2018": {
+      "budget": 178.245,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 15.112
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 25.998
+      },
+      "cir" : { 
+        "title" : "расходы CIR",
+        "costs": 31.291
+      }
+    },
+    "year_2017": {
+      "budget": 165.245,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 11.112
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 22.418
+      },
+      "cir" : {
+        "title" : "расходы CIR",
+        "costs": 38.291
+      }
+    },
+    "year_2016": {
+      "budget": 155.678,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 27.122
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 75.998
+      },
+      "cir" : {
+        "title" : "расходы CIR",
+        "costs": 32.211
+      }
+    }
+  },
+  "blockC" : {
+    "year_2018": {
+      "budget": 214.0,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 80.111
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 67.0
+      },
+      "cir" : {
+        "title" : "расходы CIR",
+        "costs": 12.44
+      }
+    },
+    "year_2017": {
+      "budget": 97.300,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 41.426
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 14.418
+      },
+      "cir" : {
+        "title" : "расходы CIR",
+        "costs": 20.091
+      }
+    },
+    "year_2016": {
+      "budget": 128.014,
+      "opex" : {
+        "title" : "расходы OPEX",
+        "costs": 22.122
+      },
+      "capex" : {
+        "title" : "расходы CAPEX",
+        "costs": 56.111
+      },
+      "cir" : {
+        "title" : "расходы CIR",
+        "costs": 16.700
+      }
+    }
+  }
+}

@@ -4,12 +4,13 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 50vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #8a9e30;
+  min-height: 15vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +21,59 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Trending-up-image{
+  font-size: 20px;
+  background-image: url('baseline-trending_up-24px.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px; /* Adjust according to image size to push text across. */
+}
+
+.Trending-down-image{
+  font-size: 20px;
+  background-image: url('baseline-trending_down-24px.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 30px; /* Adjust according to image size to push text across. */
+}
+
+.Change-list{
+  display: flex;
+    position: relative;
+    /*margin: 0 3px;*/
+    /*border-radius: 8px;*/
+    /*background: no-repeat 50% / cover;*/
+    /*overflow: hidden;*/
+    /*background-clip: border-box;*/
+}
+
+.Change{
+  display: flex;
+    position: relative;
+    width: 403px;
+    height: 230px;
+    min-width: 27vh;
+    /*margin: 0 3px;*/
+    /*border-radius: 8px;*/
+    /*background: no-repeat 50% / cover;*/
+    /*overflow: hidden;*/
+    /*background-clip: border-box;*/
+}
+
+.TotalChange{
+    display: inline-block;
+    flex-direction: column;
+    position: relative;
+    width: 403px;
+    height: 340px;
+}
+
+.Select{
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 @keyframes App-logo-spin {
